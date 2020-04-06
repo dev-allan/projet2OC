@@ -1,0 +1,100 @@
+.CV{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: flex-start;
+}
+
+.formation{
+    display: flex;
+}
+
+.loisir {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    align-content: stretch;
+}
+
+.experience {
+    display: flex;
+    flex-direction: column;
+}
+
+.presentation, .corpus {
+    border: solid 1px;
+}
+
+.presentation {
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ background-color: #FFC107;
+ padding-top: 1.3em;
+ padding-bottom: 1.3em;
+ width: 275px;
+ }
+
+.contact ul {
+    list-style-type: none;
+}
+
+.espacebottomli{
+    padding-bottom: 20px;
+}
+
+.apropos p{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+}
+
+.exp, .competence{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+.presentation h2 {
+    background-color: #263238;
+    color: #FFC107;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.loisir div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: center;
+}
+
+.loisir div {
+    width: 50px;
+    height: 50px;
+}
