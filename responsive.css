@@ -1,0 +1,19 @@
+﻿@media only screen and (max-width: 767px) {
+    .presentation{
+        display: none;
+    }
+    .corpus{
+        border-left: solid 1px;
+    }
+    .formation, .exp{
+        flex-direction: column;
+    }
+
+    .formation img, .exp img{
+        display: none;
+    }
+
+    .annee, h3, h4 {
+        text-align: center;
+    }
+}

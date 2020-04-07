@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("font/Roboto/Roboto-Regular.ttf") format("TrueType");
+}
+
+*{
+    font-family: Roboto, arial;
+}
+
+
 .CV{
     display: flex;
     flex-direction: row;
@@ -27,6 +37,15 @@
 
 .presentation, .corpus {
     border: solid 1px;
+    box-shadow: 10px 5px 5px black;
+}
+
+.presentation {
+    border-right: 0px;
+}
+
+.corpus {
+    border-left: 0px;
 }
 
 .presentation {
@@ -39,8 +58,10 @@
  width: 275px;
  }
 
-.contact ul {
+.contact ul, .contact a {
     list-style-type: none;
+    font-style: normal;
+    color: black;
 }
 
 .espacebottomli{
@@ -85,20 +106,6 @@
     align-content: center;
 }
 
-.loisir div {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: stretch;
-    align-content: center;
-}
-
-.loisir div {
-    width: 50px;
-    height: 50px;
-}
-
 #prenomjaune {
     color: #FFC107;
 }
@@ -112,8 +119,9 @@
 }
 
 h2 img{
-    max-width: 20px;
-    max-height: 25px;
+    width: 20px;
+    height: 25px;
+    padding-right: 10px;
 }
 
 .corpus{
@@ -130,7 +138,29 @@ h2 img{
      margin-top: 0px;
 }
 
-.formation img{
-    max-width:20px;
-    max-height: 20px;
+.formation img, .exp img{
+    width:20px;
+    height: 20px;
+    padding-right: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+}
+
+.competence {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+    align-content: stretch;
+}
+
+.photo img {
+    border: 1px solid brown;
+    border-radius: 50%;
 }
